@@ -8,7 +8,7 @@ app.use(express.json());
 const config = {
   user: 'sa',
   password: 'nekochan',
-  server: '192.168.100.151',      // Địa chỉ SQL Server
+  server: 'localhost',      // Địa chỉ SQL Server
   database: 'Nekochandb',
   options: {
     encrypt: true,                   // Sử dụng SSL
