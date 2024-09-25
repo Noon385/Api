@@ -8,7 +8,7 @@ app.use(express.json());
 const config = {
   user: 'sa',
   password: 'nekochan',
-  server: 'localhost',      // Địa chỉ SQL Server
+  server: 'https://340d-58-186-28-167.ngrok-free.app/',      // Địa chỉ SQL Server
   database: 'Nekochandb',
   options: {
     encrypt: true,                   // Sử dụng SSL
